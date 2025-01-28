@@ -18,4 +18,11 @@ export class LoginPage {
         await this.page.getByText('Entrar').click()
         
     }
+
+    async isLoggedIn(){
+        const logoutLink =  this.page.locator('a[href="/logout"]')
+        await expect(logoutLink).toBeVisible()
+    }
+
+
 }

@@ -22,14 +22,14 @@ Antes de começar, você precisará ter o seguinte instalado:
 2. Acesse a pasta do projeto:
 
    ```bash
-    <cd zombieplus-playwright>
+    cd zombieplus-playwright
 
 3. Instale as dependências:
 
    ```bash
-    <npm install>
+    npm install
 
 4. Execute o primeiro teste para verificar a configuração:
 
    ```bash
-    <npx playwright test>
+    npx playwright test
